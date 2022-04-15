@@ -1,0 +1,42 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "installandconfiguredockercomposelinux", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "nodepatchinglinux"
+        }, 
+        {
+            "order": 20, 
+            "stepKey": "icdinstalldocker"
+        }, 
+        {
+            "order": 40, 
+            "stepKey": "iicdinstalldockercompose"
+        }, 
+        {
+            "order": 60, 
+            "stepKey": "icdcreatedockergroupandadduser"
+        }, 
+        {
+            "order": 80, 
+            "stepKey": "icdsettheusergrouptodocker"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "restartlinuxnode"
+        }, 
+        {
+            "order": 160, 
+            "stepKey": "icdstartandenabledocker"
+        }, 
+        {
+            "order": 180, 
+            "stepKey": "icddockerinfo"
+        }
+    ], 
+    "name": "Install and Configure Docker Compose - Linux", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

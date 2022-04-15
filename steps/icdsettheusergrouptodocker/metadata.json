@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "icdsettheusergrouptodocker", 
+    "name": "ICD Set the User Group to Docker", 
+    "osCredKey": "linuxuser", 
+    "serverKey": "linuxnode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

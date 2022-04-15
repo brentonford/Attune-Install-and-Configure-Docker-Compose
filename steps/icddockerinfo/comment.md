@@ -1,0 +1,1 @@
+Record the Docker system wide information in the log.

@@ -1,0 +1,5 @@
+# groupadd docker
+
+usermod -aG docker {LinuxUser.user}
+
+cat /etc/group | grep docker
